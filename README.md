@@ -63,7 +63,7 @@
 - **JetBrains:** Discussed Jetbrains IDE / ReSharper usage and best practices for .NET development and also why resharper always crashes visual studio
 - **Opsera:** Offers a developer dashboard for Copilot usage and developer productivity metrics, similar to Neudesic’s dev productivity dashboard approach.
 - **Docker:** Support for AI-intensive workloads in docker. Developers now spend less time on environment setup.
-- **Visual Studio:** Announced IDE upgrades to support new Agent mode, though model rollout may take longer. Most developers are leaning towards VS Code C# extensions for .NET programming and also why resharper always crashes - (they had no answer for this 😉)
+- **Visual Studio:** Announced IDE upgrades to support new Agent mode, though model rollout may take longer. Most developers are leaning towards VS Code C# extensions for .NET programming and also why resharper always crashes - (they had no answer to this 😉)
 
 ## Sessions & Labs Attended
 
