@@ -51,11 +51,11 @@
 
 ## The Hub Networking Notes
 
-<img src="hub.jpeg" alt="The Hub" style="width:100%;max-width:600px;display:block;margin:auto;"/>
+<img src="hub.jpeg" alt="The Hub" style="width:100%;display:block;margin:auto;"/>
 
 - **AI Skills Growth:** Microsoft’s learning platform now lets users build AI skills and receive AI-driven career path guidance, with resources and these are **PRETTY COOL**:  
    
-   <img src="AskLearn.jpeg" alt="Closing Keynote" style="width:100%;max-width:600px;display:block;margin:auto;"/>  
+   <img src="AskLearn.jpeg" alt="Closing Keynote" style="width:100%;display:block;margin:auto;"/>  
 
   - [https://learn.microsoft.com/en-us/plans/ai](https://learn.microsoft.com/en-us/plans/ai)
   - [aka.ms/learnatbuild](https://aka.ms/learnatbuild)
@@ -118,7 +118,7 @@
   Scott Hanselman and Mark Russinovich kicked off the closing “Lock Note” by emphasizing community engagement. The session highlighted practical robotics—using an open-source Hello Robot to try to solve real-world tasks like fetching drinks. They demoed the robot live, showing object recognition, navigation, and voice command, but the robot struggled and failed a few times (was buggy, needed lots of recalibration). There was a discussion on the integration of AI models with robotics, and the reality that even with advanced models, there are real limits to what they can do reliably in physical environments.  
   [Session link](https://build.microsoft.com/en-US/sessions/KEY040?source=sessions)
 
-  <img src="robot.jpeg" alt="Closing Keynote" style="width:100%;max-width:600px;display:block;margin:auto;"/>
+  <img src="robot.jpeg" alt="Closing Keynote" style="width:100%;display:block;margin:auto;"/>
 
 ## Hackathon
 
