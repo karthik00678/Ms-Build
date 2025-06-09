@@ -121,7 +121,7 @@
 
 - **Copilot Studio and AI Foundry:**  
   Completed the Copilot Studio hackathon challenge (despite a lot of bugs—Microsoft acknowledged this). The task was to connect an OpenAPI pizza service via a Copilot agent/MCP and create a pizza order. When I finished, I got a raffle ticket for an Xbox, but no luck this time. Still, it was a fun and practical exercise.  
-  I also partially completed the AI Foundry task by building a similar workflow, using Semantic Kernel and the agent SDK in Visual Studio.  
+  I also partially completed the AI Foundry task by building a similar workflow, using Semantic Kernel and the agent SDK and .Net Aspire.  
   [Session link](https://build.microsoft.com/en-US/sessions/OPHK950?source=sessions)
 
 ## Photo Dump
