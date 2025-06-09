@@ -54,10 +54,12 @@
 <img src="hub.jpeg" alt="The Hub" style="width:100%;max-width:600px;display:block;margin:auto;"/>
 
 - **AI Skills Growth:** Microsoft’s learning platform now lets users build AI skills and receive AI-driven career path guidance, with resources and these are **PRETTY COOL**:  
+   
+   <img src="AskLearn.jpeg" alt="Closing Keynote" style="width:100%;max-width:600px;display:block;margin:auto;"/>  
+
   - [https://learn.microsoft.com/en-us/plans/ai](https://learn.microsoft.com/en-us/plans/ai)
   - [aka.ms/learnatbuild](https://aka.ms/learnatbuild)
   - [aka.ms/AskLearnInVscode](https://aka.ms/AskLearnInVscode)  
-   <img src="AskLearn.jpeg" alt="Closing Keynote" style="width:100%;max-width:600px;display:block;margin:auto;"/>
 - **JetBrains:** Discussed Jetbrains IDE / ReSharper usage and best practices for .NET development and also why resharper always crashes visual studio
 - **Opsera:** Offers a developer dashboard for Copilot usage and developer productivity metrics, similar to Neudesic’s dev productivity dashboard approach.
 - **Docker:** Support for AI-intensive workloads in docker. Developers now spend less time on environment setup.
