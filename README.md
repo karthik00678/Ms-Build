@@ -60,7 +60,7 @@
 - **JetBrains:** Discussed Jetbrains IDE / ReSharper usage and best practices for .NET development and also why resharper always crashes visual studio
 - **Opsera:** Offers a developer dashboard for Copilot usage and developer productivity metrics, similar to Neudesic’s dev productivity dashboard approach.
 - **Docker:** Support for AI-intensive workloads in docker. Developers now spend less time on environment setup.
-- **Visual Studio:** Announced IDE upgrades to support new Agent mode, though model rollout may take longer. Most developers are leaning towards VS Code C# extensions for .NET programming
+- **Visual Studio:** Announced IDE upgrades to support new Agent mode, though model rollout may take longer. Most developers are leaning towards VS Code C# extensions for .NET programming and also why resharper always crashes - (they had no answer for this 😉)
 
 ## Sessions & Labs Attended
 
@@ -78,20 +78,25 @@
   [Session link](https://build.microsoft.com/en-US/sessions/BRK207?source=sessions)
 
 - **.NET Aspire lab for API orchestration:**  
-  Walked through building distributed/cloud-native apps with .NET Aspire. Focused on how Aspire tries to improve developer productivity: config and setup are now simpler, and Aspire gives you sensible defaults. The new `ServiceDefaults` method lets you set up logging and telemetry for all your services in one go (no more repeating yourself). Aspire separates the overall app host from the individual services, making it easier to manage and compose multiple pieces. Orchestration tools help you wire up, monitor, and manage everything from one place, without a bunch of boilerplate.  
+  Walked through building distributed/cloud-native apps with .NET Aspire. Focused on how Aspire tries to improve developer productivity: config and setup are now simpler, and Aspire gives you sensible defaults. The new `ServiceDefaults` method lets you set up logging and telemetry for all your services in one go (no more repeating yourself). Aspire separates the overall app host from the individual services, making it easier to manage and compose multiple pieces. Orchestration tools help you wire up, monitor, and manage everything from one place, without a bunch of boilerplate.Overall, it felt a lot easier to wire up and orchestrate multi-service apps and monitor the app metrics with a nice dashboard.  
   [Session link](https://github.com/dotnet-presentations/build-2025-lab306)
 
 - **Semantic search in PostgreSQL:**  
-  PostgreSQL is getting new semantic operators that let you run similarity searches, vector queries, and use GenAI right from SQL—no more jumping to extensions or Python. The session demoed a new VS Code extension where you can query the database from Copilot chat, and get live metrics, execution plans, and feedback right in the chat window. Handy for AI, RAG-style, and search-heavy workloads.  
+  PostgreSQL is getting new semantic operators that let you run similarity searches, vector queries, and use GenAI stuff right from SQL—no more relying on extensions or jumping out to Python. The session also showed a new VS Code extension where you can query the database from Copilot chat, and it actually gives you live query metrics, execution plans, and feedback in the chat window. Pretty useful for exploring data and understanding what’s going on with your queries, especially when experimenting with AI or RAG-style workloads.  
   [Session link](https://build.microsoft.com/en-US/sessions/BRK211?source=sessions)
 
 - **Multi-agent systems – Great Session**
   - Microsoft’s Agent Service, introduced last year at Ignite, is now GA in AI Foundry. It reminded me a lot of our Nexus project at Neudesic.
-  - Session covered demos and discussion of agentic scenarios and use cases using the AI Foundry Agent Service.
-  - You can connect agents together as “tools” (A2A), set up declarative workflows with Semantic Kernel, and get endpoints for interaction.
-  - Agents can be ephemeral, connected, and extended via plugins, MCP servers, and more.  
-  - Highlights: A2A protocols, resilience via task ledgers, structured outputs, and integration with Autogen and Semantic Kernel frameworks.
-  - [Session link](https://build.microsoft.com/en-US/sessions/BRK148?source=sessions)
+  - Most of the session was demos and discussion of agentic scenarios and use cases using the AI Foundry Agent Service. You can connect agents together as “tools” (A2A, agent-to-agent), and set up declarative workflows with Semantic Kernel.
+  - Workflows are declared in code (using .fdl workflow controls), then deployed to Foundry, and you get an endpoint for interaction—either via API or directly from the VS Code AI Foundry chat extension.
+  - In Semantic Kernel, you can instantiate new agents and create multiple clients (for example, a student and teacher agent using client.createAssistantAsync). Conversations between agents use an event model.
+  - Agents are ephemeral: you can create, delete, and update them on demand. Token exhaustion can be a problem for long workflows, so retry logic is important.  
+  - You can connect with external agents (including ones built by other companies) using the new A2A protocol created by google.o	Workflows can generate structured outputs (JSON, not just text), and you can use MCP servers and plugins in the SK client setup.
+  -	When agents fail because there are too many tools, the best approach is to put plugin/tool metadata into a vector store, then use semantic search so agents can select the right tool at runtime.
+  -	The new “Magnetic One” framework adds a task ledger—if an agent fails, it can retry with a new strategy, so you get more resilience and creativity from the system.
+  -	Microsoft is pushing both AutoGen and Semantic Kernel for multi-agent frameworks. Orchestration patterns from AutoGen are now usable in SK, which is now considered production-ready.
+  -	Big idea: you can now build and connect A2A agents in Azure AI Foundry, hook them up with Semantic Kernel, and use open-sourced workflow patterns to build complex, multi-agent systems. 
+  [Session link](https://build.microsoft.com/en-US/sessions/BRK148?source=sessions)
 
 - **Blazor UI improvements and .NET 10:**  
   Covered updates in ASP.NET Core and Blazor, with .NET 10 aiming for better developer productivity and performance. There’s new scaffolding for both ASP.NET and Blazor, which speeds up project setup. The Kestrel web server in .NET 10 now uses 50% less CPU, which should help with hosting costs and hardware load. AI integration is easier, and a lot of big Microsoft web services are already running these updates. .NET has increased support for agents and AI extensions are coming, with quick agent setup via Semantic Kernel.  
@@ -106,7 +111,7 @@
   [Session link](https://build.microsoft.com/en-US/sessions/LABFP380-R4?source=sessions)
 
 - **Closing KeyNote:**  
-  Scott Hanselman and Mark Russinovich led the “Lock Note” session focusing on community and real-world robotics. Demoed an open-source Hello Robot fetching drinks, with live object recognition and voice commands—though the robot was buggy and needed a lot of recalibration. Discussed the integration of AI models and robotics, and the practical limits of current technology. Wrapped up with a fun AI agent contest and a real look at where robotics and AI stand in real environments.  
+  Scott Hanselman and Mark Russinovich kicked off the closing “Lock Note” by emphasizing community engagement. The session highlighted practical robotics—using an open-source Hello Robot to try to solve real-world tasks like fetching drinks. They demoed the robot live, showing object recognition, navigation, and voice command, but the robot struggled and failed a few times (was buggy, needed lots of recalibration). There was a discussion on the integration of AI models with robotics, and the reality that even with advanced models, there are real limits to what they can do reliably in physical environments.  
   [Session link](https://build.microsoft.com/en-US/sessions/KEY040?source=sessions)
 
   <img src="robot.jpeg" alt="Closing Keynote" style="width:100%;max-width:600px;display:block;margin:auto;"/>
