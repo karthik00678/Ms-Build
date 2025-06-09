@@ -96,10 +96,11 @@
   -	The new “Magnetic One” framework adds a task ledger—if an agent fails, it can retry with a new strategy, so you get more resilience and creativity from the system.
   -	Microsoft is pushing both AutoGen and Semantic Kernel for multi-agent frameworks. Orchestration patterns from AutoGen are now usable in SK, which is now considered production-ready.
   -	Big idea: you can now build and connect A2A agents in Azure AI Foundry, hook them up with Semantic Kernel, and use open-sourced workflow patterns to build complex, multi-agent systems. 
+
   [Session link](https://build.microsoft.com/en-US/sessions/BRK148?source=sessions)
 
 - **Blazor UI improvements and .NET 10:**  
-  Covered updates in ASP.NET Core and Blazor, with .NET 10 aiming for better developer productivity and performance. There’s new scaffolding for both ASP.NET and Blazor, which speeds up project setup. The Kestrel web server in .NET 10 now uses 50% less CPU, which should help with hosting costs and hardware load. AI integration is easier, and a lot of big Microsoft web services are already running these updates. .NET has increased support for agents and AI extensions are coming, with quick agent setup via Semantic Kernel.  
+  Covered updates in ASP.NET Core and Blazor, with .NET 10 aiming for better developer productivity and performance. There’s new scaffolding for both ASP.NET and Blazor, which speeds up project setup. The Kestrel web server in .NET 10 now uses 50% less CPU, which should help with hosting costs and hardware load. AI integration is easier, and a lot of big Microsoft web services are already running these updates. .NET has increased support for agents and AI extensions are coming, with quick agent setup via Semantic Kernel.   
   [Session link](https://build.microsoft.com/en-US/sessions/BRK122?source=sessions)
 
 - **Ethical Hacking Lab for AKS:**  
