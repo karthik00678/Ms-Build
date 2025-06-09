@@ -1,6 +1,6 @@
 # Microsoft Build 2025
 
-<img src="msbuild.jpeg" alt="Microsoft Build" style="width:100%;max-width:600px;display:block;margin:auto;"/>
+<a href="build.pdf"><img src="msbuild.jpeg" alt="Microsoft Build" style="width:100%;max-width:600px;display:block;margin:auto;"></a>
 
 ## Keynote Notes
 
