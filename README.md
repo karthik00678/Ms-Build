@@ -51,6 +51,8 @@
 
 ## The Hub Networking Notes
 
+<img src="hub.jpeg" alt="The Hub" style="width:100%;max-width:600px;display:block;margin:auto;"/>
+
 - **AI Skills Growth:** Microsoft’s learning platform now lets users build AI skills and receive AI-driven career path guidance, with resources and these are **PRETTY COOL**:  
   - [https://learn.microsoft.com/en-us/plans/ai](https://learn.microsoft.com/en-us/plans/ai)
   - [aka.ms/learnatbuild](https://aka.ms/learnatbuild)
@@ -103,9 +105,11 @@
   This lab used NVIDIA NIM to build agentic workflows. We worked in Azure Kubernetes Service, used Azure Cloud Shell to access containers with NIM, and asked questions directly against the running agent. Showed how NVIDIA’s platform connects model training, scalable inference, and agent deployment on their GPUs.  
   [Session link](https://build.microsoft.com/en-US/sessions/LABFP380-R4?source=sessions)
 
-- **Final KeyNote:**  
+- **Closing KeyNote:**  
   Scott Hanselman and Mark Russinovich led the “Lock Note” session focusing on community and real-world robotics. Demoed an open-source Hello Robot fetching drinks, with live object recognition and voice commands—though the robot was buggy and needed a lot of recalibration. Discussed the integration of AI models and robotics, and the practical limits of current technology. Wrapped up with a fun AI agent contest and a real look at where robotics and AI stand in real environments.  
   [Session link](https://build.microsoft.com/en-US/sessions/KEY040?source=sessions)
+
+  <img src="robot.jpeg" alt="Closing Keynote" style="width:100%;max-width:600px;display:block;margin:auto;"/>
 
 ## Hackathon
 
