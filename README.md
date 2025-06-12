@@ -78,6 +78,10 @@
 
 - **Semantic search and vector embeddings in SQL Server and Copilot in SSMS:**  
   SQL Server 2025 now supports vector data types and vector indexes, so we can store embeddings directly in tables and run similarity searches using T-SQL. This opens up RAG-style workflows and lets us combine vector search with full-text and semantic search inside the database. During the demo, they showed how you can translate content in a database (e.g., Chinese to English) using built-in AI features—worked well for multi-language scenarios. (Mostly in preview)  
+
+    <img src="SemanticSearch.jpeg" alt="Closing Keynote" style="width:100%;display:block;margin:auto;"/>  
+
+  
   [Session link](https://build.microsoft.com/en-US/sessions/BRK207?source=sessions)
 
 - **.NET Aspire lab for API orchestration:**  
@@ -88,7 +92,10 @@
   PostgreSQL is getting new semantic operators that let you run similarity searches, vector queries, and use GenAI stuff right from SQL—no more relying on extensions or jumping out to Python. The session also showed a new VS Code extension where you can query the database from Copilot chat, and it actually gives you live query metrics, execution plans, and feedback in the chat window. Pretty useful for exploring data and understanding what’s going on with your queries, especially when experimenting with AI or RAG-style workloads.  
   [Session link](https://build.microsoft.com/en-US/sessions/BRK211?source=sessions)
 
-- **Multi-agent systems – Great Session**
+- **Multi-agent systems – Great Session**  
+
+  <img src="multiAgent.jpeg" alt="Closing Keynote" style="width:100%;display:block;margin:auto;"/>  
+
   - Microsoft’s Agent Service, introduced last year at Ignite, is now GA in AI Foundry. It reminded me a lot of our Nexus project at Neudesic.
   - Most of the session was demos and discussion of agentic scenarios and use cases using the AI Foundry Agent Service. You can connect agents together as “tools” (A2A, agent-to-agent), and set up declarative workflows with Semantic Kernel.
   - Workflows are declared in code (using .fdl workflow controls), then deployed to Foundry, and you get an endpoint for interaction—either via API or directly from the VS Code AI Foundry chat extension.
