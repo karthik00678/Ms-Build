@@ -74,6 +74,9 @@
 
 - **AI Foundry Local and Aspire:**  
   Explored the benefits and challenges of running generative AI models locally versus in the cloud. Local processing offers cost savings and privacy but brings hardware and deployment challenges. Foundry Local helps optimize model delivery for diverse devices, but the session highlighted the real-world complexity and technical hurdles of managing local AI at scale. Waiting for more on this.  
+
+    <img src="FoundryLocal.jpeg" alt="Closing Keynote" style="width:100%;display:block;margin:auto;"/>  
+
   [Session link](https://build.microsoft.com/en-US/sessions/DEM520?source=sessions)
 
 - **Semantic search and vector embeddings in SQL Server and Copilot in SSMS:**  
